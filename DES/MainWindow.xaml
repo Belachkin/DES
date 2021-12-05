@@ -1,0 +1,16 @@
+﻿<Window x:Class="DES.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DES"
+        mc:Ignorable="d"
+        Title="DES" Height="151" Width="432" ResizeMode="NoResize" Background="#FF3F3F46">
+    <Grid>
+        <Button x:Name="butEncrypt" Content="Шифровать" HorizontalAlignment="Left" Margin="17,61,0,0" VerticalAlignment="Top" Width="170" Click="butEncrypt_Click" Height="29" Background="#FF323238" Foreground="White"/>
+        <TextBox x:Name="txtInputKey" HorizontalAlignment="Left" Height="23" Margin="121,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Background="#FF323238" Foreground="White"/>
+        <Button x:Name="butDecrypt" Content="Расшифровать" HorizontalAlignment="Left" Margin="225,61,0,0" VerticalAlignment="Top" Width="170" Click="butDecrypt_Click" Height="29" Foreground="White" Background="#FF323238"/>
+        <Label Content="Key" HorizontalAlignment="Left" Margin="80,21,0,0" VerticalAlignment="Top" Foreground="White" Height="35" Width="41" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
